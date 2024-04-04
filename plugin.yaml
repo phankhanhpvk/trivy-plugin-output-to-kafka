@@ -1,5 +1,5 @@
 name: "kafka"
-version: "1.0.0"
+version: "1.0"
 repository: "https://github.com/phankhanhpvk/trivy-plugin-output-to-kafka"
 usage: Put log json to kafka
 description: Put log json to kafka
@@ -8,10 +8,10 @@ platforms:
       os: linux
       arch: amd64
     bin: ./kafka
-    uri: https://github.com/phankhanhpvk/trivy-plugin-output-to-kafka/-/releases/v0.1.0/downloads/trivy_output_plugin_kafka_0.1.0_linux-amd64.tar.gz
+    uri: https://github.com/phankhanhpvk/trivy-plugin-output-to-kafka/-/releases/v0.1.0/downloads/trivy_output_plugin_kafka_1.0_linux-amd64.tar.gz
   - selector:
       os: linux
       arch: arm64
     bin: ./kafka
-    uri: https://github.com/phankhanhpvk/trivy-plugin-output-to-kafka/-/releases/v0.1.0/downloads/trivy_output_plugin_kafka_0.1.0_linux-arm64.tar.gz
+    uri: https://github.com/phankhanhpvk/trivy-plugin-output-to-kafka/-/releases/v0.1.0/downloads/trivy_output_plugin_kafka_1.0_linux-arm64.tar.gz
     

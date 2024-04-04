@@ -1,5 +1,5 @@
 name: "kafka"
-version: "0.1.0"
+version: "1.0.0"
 repository: "https://github.com/phankhanhpvk/trivy-plugin-output-to-kafka"
 usage: Put log json to kafka
 description: Put log json to kafka

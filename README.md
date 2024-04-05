@@ -21,11 +21,11 @@ trivy <target> -f json <target_name> | trivy kafka [plugin_flags]
 ## Examples
 
 ```shell
-trivy image -f json -o plugin=kafka --output-plugin-arg "--topic=trivy" --output-plugin-arg "--topic=localhost:9092" debian:12
+trivy image -f json -o plugin=kafka --output-plugin-arg "--topic=logs --brokers=localhost:9092" debian:12
 ```
 
 is equivalent to:
 
 ```shell
-trivy image -f json debian:12 | trivy kafka --output-plugin-arg "--topic=trivy" --output-plugin-arg "--topic=localhost:9092"
+trivy image -f json debian:12 | trivy kafka --output-plugin-arg "--topic=logs --brokers=localhost:9092"
 ```
